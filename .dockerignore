@@ -1,0 +1,28 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment and secret files
+.env
+*.log
+*.db
+
+# Ignore virtual environments
+venv/
+.venv/
+.env/
+.envrc
+
+# Ignore unnecessary dev files
+.git
+.gitignore
+README.md
+tests/
+notebooks/
+
+# ✅ DO NOT ignore these:
+# - requirements.txt
+# - Dockerfile
+# - .dockerignore itself

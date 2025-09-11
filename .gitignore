@@ -1,0 +1,40 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# Logs
+logs/
+*.log
+
+# Pytest
+.coverage
+.cache/
+htmlcov/
+
+# VSCode, JetBrains, etc.
+.vscode/
+.idea/
+
+# Docker
+*.tar
+*.bak
+
+# Ignore model files (optional)
+app/model/v1/BreastCancerCNN_custom_model.keras
+app/model/v1/encoders/
+
+# Output / build artifacts
+dist/
+build/
+
+# Optional: Ignore SQLite or DB files
+*.db
